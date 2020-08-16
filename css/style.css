@@ -1,0 +1,180 @@
+body{
+	margin:0;
+}
+.brand{
+	font-family: 'Dancing Script', cursive;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px 18px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+   border-radius: 50px;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.header-nav{
+	background-color: black;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height:650px;
+}
+.nav-link:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 20px;
+}
+a{
+	font-size: 20px;
+}
+.header-text{
+	padding-top: 220px;
+	box-sizing: border-box;
+}
+
+.header-text h2{
+	font-size: 36px;
+}
+.header-text h1{
+	font-size: 56px;
+	font-weight: bold;
+	position: relative;
+	margin: 0;
+	color: #fff;
+	z-index: 1;
+	overflow: hidden;
+	padding: 10px 0;
+}
+.header-text h1:before{
+	content: '';
+	position: absolute;
+	left: 110%;
+	width: 120%;
+	height: 100%;
+	background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+	animation: myfirst 5s linear 2s infinite alternate;
+}
+@keyframes myfirst{
+	0%{
+		left: 110%;
+	}
+	100%{
+		left: -20%;
+	}
+}
+.header-text h1 span{
+	color: red;
+}
+.header-button{
+	padding-top: 30px;
+}
+.services{
+	padding: 100px 0px 60px;
+	
+}
+.services h1{
+	font-size: 50px;
+	font-weight:bold;
+}
+.services p{
+	font-size: 20px;
+}
+.row-set{
+	margin: 80px 0;
+	
+}
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.fa-wordpress{
+	margin-top: 30px;
+}
+.fa-tv{
+	margin-top: 30px;
+}
+.fa-laptop-code{
+	margin-top: 30px;
+}
+.row-set h2{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.row-set p{
+	color: grey!important;
+	padding: 10px;
+}
+.portfolio{
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+	overflow: hidden;
+	
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.portfolio p{
+	font-size: 20px;
+}
+.card{
+	margin-top: 40px;
+}
+.my-team{
+	height: 700px;
+	width: 100%;
+	padding: 100px 0px 60px;
+	
+}
+.my-team h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.my-team p{
+	font-size: 18px;
+}
+.team-set{
+	margin-top: 70px !important;
+}
+.figure h4{
+	padding-top: 30px;
+	font-size: 28px;
+}
